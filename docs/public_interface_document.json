@@ -1,6 +1,6 @@
 {
   "package_name": "com.example.simple_counter",
-  "project_description": "A simple Flutter application that demonstrates the use of the Cubit pattern for state management by implementing a basic counter.",
+  "project_description": "A simple Flutter application that demonstrates the use of the Cubit pattern for state management by implementing a basic counter that increments by 2.",
   "architecture_overview": "The project follows a modular architecture with separation of concerns. It uses the Cubit pattern for state management, comprising separate folders for screens, cubits, and models.",
   "folder_structure": {
     "lib": {
@@ -43,7 +43,7 @@
       "methods": [
         {
           "name": "increment",
-          "description": "Increments the counter state.",
+          "description": "Increments the counter state by 2.",
           "parameters": null,
           "return_type": "void"
         },
@@ -98,11 +98,11 @@
     {
       "name": "CounterCubit",
       "state": "CounterState",
-      "description": "Manages the counter state with methods to increment and decrement the value.",
+      "description": "Manages the counter state with methods to increment by 2 and decrement the value.",
       "methods": [
         {
           "name": "increment",
-          "description": "Increments the counter state.",
+          "description": "Increments the counter state by 2.",
           "parameters": null,
           "return_type": "void"
         },
